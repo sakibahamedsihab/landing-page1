@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic utility style */
+.flex {
+    display: flex;
+}
+.clm {
+    flex-direction: column;
+}
+.between {
+    justify-content: space-between;
+}
+.around {
+    justify-content: space-around;
+}
+.center {
+    align-items: center;
+}
+.g1 {
+    gap: 1rem;
+}
+.g2 {
+    gap: 2rem;
+}
+.g3 {
+    gap: 3rem;
+}
+
+
+
+
+
+/* Common styles */
+.ptext {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.btn {
+    font-size: 20px;
+    color: white;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+
+    padding: 20px 25px;
+}
+.btn:hover {
+    scale: 1.02;
+    box-shadow: 4px 4px 16px 8px #bdb5ac3f;
+}
+.section-header {
+    font-size: 45px;
+    font-weight: 900;
+    color: #131313;
+}
+
+
+
+
+
+
+
+/* styling-start */
+
+/* styling header and hero-sectin/banner-section */
+.header {
+    background-color: #ff8f0e33;
+}
+.navbar {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.navbar .logo {
+    font-size: 45px;
+    font-weight: 900;
+    color: #131313;
+}
+.navbar .menu {
+    list-style: none;
+}
+.navbar .menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #424242;
+}
+.header-heading {
+    font-size: 65px;
+    font-weight: 900;
+    color: #131313;
+}
+.header-container .content {
+    width: 862px;
+    margin: 102px auto 0px auto;
+    text-align: center;
+}
+.banner-image {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 45px 0px
+}
+
+
+
+
+.quick-list-container {
+    margin: 85px 250px 0px 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+}
+.quick-list-container .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1rf 1rf;
+    gap: 24px;
+}
+.quick-list-container .content {
+    justify-content: center;
+    gap: 2rem;
+}
+.quick-list-container .content h1 {
+    font-size: 45px;
+}
+.dark3{
+    color: #727272;
+}
+.brown{
+    color: #FF900E;
+}
